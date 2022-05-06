@@ -2,7 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container > li {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills > li {
+  text-align: center;
+  margin: 1rem;
+}
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +62,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
